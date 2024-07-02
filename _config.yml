@@ -6,7 +6,7 @@ title: blank # the website title (if blank, full name will be used instead)
 first_name: J.
 middle_name: Jake
 last_name: Nichol
-email: jjakenichol@gmail.com
+email: 
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   J. Jake Nichol's personal website. Based on [*folio](https://github.com/bogoli/-folio) design.
 footer_text: >
@@ -110,8 +110,8 @@ x_username: # your X handle
 youtube_id: # your youtube channel id (youtube.com/@<youtube_id>)
 zotero_username: # your zotero username
 
-contact_note: >
-  Email is the most reliable way to contact me.
+# contact_note: >
+#   Email is the most reliable way to contact me.
 
 # -----------------------------------------------------------------------------
 # Analytics and search engine verification
