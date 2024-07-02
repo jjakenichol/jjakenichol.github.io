@@ -2,96 +2,132 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
-    - name: Date of Birth
-      value: 14th March 1879
-    - name: Languages
-      value: English, German
+      value: J. Jake Nichol
+    # - name: Date of Birth
+    #   value: 14th March 1879
+    # - name: Languages
+    #   value: English, German
 
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+    - title: PhD - expected
+      institution: Department of Computer Science, University of New Mexico
+      year: 2024
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
-      description:
-        - Description 1.
-        - Description 2.
+        - Moses Biological Computation Lab
+        - Thesis title: Structure Identification of Complex Spatiotemporal Systems via Machine Learning and Causal Learning in Climate Science.
+        # - title: Description 3.
+        #   contents:
+        #     - Sub-description 1.
+        #     - Sub-description 2.
+    - title: Masters of Business Administration
+      institution: Anderson School of Business, University of New Mexico
+      year: 2017
+      # description:
+      #   - Description 1.
+      #   - Description 2.
+    - title: Bachelor of Science, Computer Science
+      institution: Department of Computer Science, University of New Mexico
+      year: 2016
+      # description:
+      #   - Description 1.
+
 
 - title: Experience
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
+    - title: R&D Graduate Intern
+      institution: Sandia National Laboratories
+      year: 2019 - ...
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
+        # - Participated in the Lab Driven Research & Development project CLDERA, which seeks to develop tools to identify source to impact pathways in climate systems.
+        # -	Researched the application of causal discovery, specifically the PC and PCMCI algorithms, for identifying causal pathways from the 1991 Mt. Pinatubo eruption.
+        # -	Developed the CaStLe algorithm for constructing spatiotemporal causal graphs of local dependencies in climate data.
+        # -	Researched random forest machine learning techniques for learning about emergent dynamics in climate models.
+        # -	Used feature importance analysis to make comparisons between observed and simulated data to look for the simulations' faults.
+
+    - title: Graduate Research Assistant
+      institution: Department of Computer Science, University of New Mexico
+      year: 2018 - 2019
       description:
-        - Description 1.
-        - Description 2.
+        # -	Researched robotics under Dr. Lydia Tapia and computational sociology under Dr. Marina Kogan.
+        # -	Data analytics and visualization of demographic statistics in the computer science field.
 
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
-
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
+    - title: Owner
+      institution: Swarming Technologies LLC
+      year: 2017 - 2019
       description:
+        # -	Sold versatile ground-based robots designed for swarm robotics and autonomous robotics research and education.
+        # -	Provided R&D, repair, and manufacturing services. 
+        # -	Custom built autonomous systems for equipment and vehicles.
 
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
+    - title: Robot Engineer/Designer
+      institution: NASA Swarmathon & Moses Biological Computation Lab
+      year: 2015 - 2017
+      description:
+        # -	Designed and developed autonomous, swarming robots called Swarmies. The robots were a part of a nation-wide, college-level robotics competition called the NASA Swarmathon. Development included designing with Autodesk Inventor and manufacturing parts with SLS, SLA, and FDM 3D printing, as well as electronics development.
+        # -	Analyzed data to track progress and success determinants using MySQL and Python's numpy, scipy, and pandas.
+        # -	Developed automated deployment for code on robots using Ansible and Docker.
+        # -	Conducted swarm robotics research using Arduino/iPod Touch-controlled robots, iAnts, using a genetic algorithm to tune behavior.
+
+    - title: Software Engineering Intern
+      institution: Intel Corporation
+      year: 2014-2014
 
 - title: Open Source Projects
   type: time_table
   contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
+    - title: <a href="https://github.com/sandialabs/clif">clif</a>
+      year: 2021
+      description: A python library that calculates empirical orthogonal functions for mainly climate data.
 
 - title: Honors and Awards
   type: time_table
   contents:
-    - year: 1921
+    - year: 2020
       items:
-        - Nobel Prize in Physics
-        - Matteucci Medal
-    - year: 2029
+        - Best Talk Prize, European Seminar on Computing (ESCO)
+        - 3rd Place Poster Prize, Department of Energy Conference on Data Analysis (CoDA)
+    - year: 2011
       items:
-        - Max Planck Medal
+        - Eagle Scout, Boy Scouts of America
 
 - title: Academic Interests
   type: nested_list
   contents:
-    - title: Topic 1.
+    - title: Causal Inference
       items:
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
+        - Algorithmic causal inference, i.e., causal structure learning, causal discovery, or causal network learning
+        - Causal inference techniques for advancing scientific machine learning
+    - title: Machine Learning
       items:
-        - Description 1.
-        - Description 2.
+        - Scientific machine learning
+        - Domain/physics-informed machine learning
+        - Climatological machine learning
+        - ML feature importance, such as random forests Gini importance, permutation importance, drop-column importance, SHAP
+        - Explainable & trustworthy machine learning
+    - title: Artificial Intelligence
+      items:
+        - AI for Earth systems science
+        - AI for science
+        - Trusted AI
+        - Explainable AI
+        - Fairness and ethics in AI.
+
+- title: Miscellaneous Technical Skills
+  type: nested_list
+  contents:
+    - title: Programming
+      items:
+        - Python and data science libraries such as NumPy, SciPy, Pandas, Xarray, DASK, and Tigramite.
+        - LaTeX
+        - High performance computing frameworks Slurm and PBS
+        - GNU Parallel
+        - MATLAB
+        - Minor experience with Docker and Anisble.
 
 - title: Other Interests
   type: list
   contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+    - <u>Hobbies:</u> skiing, camping, cycling, scuba diving, cats and dogs
