@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: University of New Mexico & Sandia National Laboratories
+subtitle: Sandia National Laboratories
 
 profile:
   align: right
@@ -17,9 +17,9 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-I'm a Ph.D. Candidate in the Department of Computer Science at the University of New Mexico and year-round intern at Sandia National Laboratories. My research is on causal analysis methods for complex spatio-temporal systems, such as the climate and Earth system models. Specifically, I have developed Causal Space-Time Stencil Learning (CaStLe), a causal discovery algorith that can recover local causal structures in spatiotemporal data. My Ph.D. advisor is Dr. Melanie Moses and I am mentored by Dr. Matthew Fricke, Dr. Michael Weylandt, and Dr. Matt Peterson.
+I'm a Postdoctoral Appointee in the Scientific Machine Learning department at Sandia National Laboratories, where I conduct research on causal discovery methods and trustworthy machine learning. I recently completed my PhD in Computer Science at the University of New Mexico, where my dissertation focused on causal analysis methods for complex spatiotemporal systems, such as climate and Earth system models. Specifically, I developed Causal Space-Time Stencil Learning (CaStLe), a causal discovery algorithm that can recover local causal structures in spatiotemporal data. My PhD advisor was Dr. Melanie Moses and I was mentored by Dr. Matthew Fricke, Dr. Laura Swiler, Dr. Michael Weylandt, and Dr. Matt Peterson.
 
-Currently, my research is funded by Sandia National Laboratories (SNL) Lab Driven Research & Development (LDRD) Grand Challenge CLDERA: CLimate impact: Determining Etiology thRough pAthways (PI: Diana Bull) to develop tools for identifying etiological pathways in the climate. I work under Dr. Laura Swiler on the Attribution team of CLDERA. For more information, [click here](https://www.sandia.gov/cldera/).
+My current research encompasses trustworthy ML applications and causal inference methodologies. Previously, my doctoral research was funded by Sandia's Lab Driven Research & Development (LDRD) Grand Challenge, CLDERA (CLimate impact: Determining Etiology thRough pAthways), led by Diana Bull, to develop tools for identifying etiological pathways in the climate. For more information, [click here](https://www.sandia.gov/cldera/).
 
 <!-- Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
 
