@@ -11,12 +11,12 @@
 - title: Education
   type: time_table
   contents:
-    - title: PhD - expected
+    - title: PhD
       institution: Department of Computer Science, University of New Mexico
-      year: 2024
+      year: 2025
       description:
         - Moses Biological Computation Lab
-        - Thesis title: Structure Identification of Complex Spatiotemporal Systems via Machine Learning and Causal Learning in Climate Science.
+        - Thesis title: Seeking Structure in Complex Systems: From Feature Analysis to Space-Time Causal Discovery with Earth Science Applications
         # - title: Description 3.
         #   contents:
         #     - Sub-description 1.
@@ -37,10 +37,16 @@
 - title: Experience
   type: time_table
   contents:
+    - title: Postdoctoral Appointee
+      institution: Sandia National Laboratories
+      year: 2025 - ...
+      description:
+        - Department: Scientific Machine Learning
     - title: R&D Graduate Intern
       institution: Sandia National Laboratories
-      year: 2019 - ...
+      year: 2019 - 2025
       description:
+        - Department: Scientific Machine Learning
         # - Participated in the Lab Driven Research & Development project CLDERA, which seeks to develop tools to identify source to impact pathways in climate systems.
         # -	Researched the application of causal discovery, specifically the PC and PCMCI algorithms, for identifying causal pathways from the 1991 Mt. Pinatubo eruption.
         # -	Developed the CaStLe algorithm for constructing spatiotemporal causal graphs of local dependencies in climate data.
@@ -78,6 +84,9 @@
 - title: Open Source Projects
   type: time_table
   contents:
+    - title: <a href="https://github.com/jjakenichol/CaStLe">CaStLe</a>
+      year: 2024
+      description: CaStLe: A Python implementation of my meta-algorithm for causal discovery in spatiotemporal systems using local stencil learning.
     - title: <a href="https://github.com/sandialabs/clif">clif</a>
       year: 2021
       description: A python library that calculates empirical orthogonal functions for mainly climate data.
