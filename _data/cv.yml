@@ -41,12 +41,12 @@
       institution: Sandia National Laboratories
       year: 2025 - ...
       description:
-        - Department: Scientific Machine Learning
+        # - Department: Scientific Machine Learning
     - title: R&D Graduate Intern
       institution: Sandia National Laboratories
       year: 2019 - 2025
       description:
-        - Department: Scientific Machine Learning
+        # - Department: Scientific Machine Learning
         # - Participated in the Lab Driven Research & Development project CLDERA, which seeks to develop tools to identify source to impact pathways in climate systems.
         # -	Researched the application of causal discovery, specifically the PC and PCMCI algorithms, for identifying causal pathways from the 1991 Mt. Pinatubo eruption.
         # -	Developed the CaStLe algorithm for constructing spatiotemporal causal graphs of local dependencies in climate data.
