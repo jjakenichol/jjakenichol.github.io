@@ -86,7 +86,7 @@
   contents:
     - title: <a href="https://github.com/jjakenichol/CaStLe">CaStLe</a>
       year: 2024
-      description: CaStLe: A Python implementation of my meta-algorithm for causal discovery in spatiotemporal systems using local stencil learning.
+      description: "CaStLe: A Python implementation of my meta-algorithm for causal discovery in spatiotemporal systems using local stencil learning."
     - title: <a href="https://github.com/sandialabs/clif">clif</a>
       year: 2021
       description: A python library that calculates empirical orthogonal functions for mainly climate data.
@@ -139,4 +139,4 @@
 - title: Other Interests
   type: list
   contents:
-    - <u>Hobbies:</u> skiing, camping, cycling, scuba diving, cats and dogs
+    - "<u>Hobbies:</u> skiing, camping, cycling, scuba diving, cats and dogs"
