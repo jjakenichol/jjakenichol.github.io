@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://jjakenichol.github.io/sitemap.xml
+Sitemap: https://www.jjakenichol.com/sitemap.xml
