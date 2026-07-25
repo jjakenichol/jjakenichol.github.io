@@ -9,9 +9,9 @@ nav_order: 3
 
 ## Published packages
 
-**[CaStLe](https://github.com/jjakenichol/CaStLe)** — Causal Space-Time Stencil Learning. Recovers local causal space-time structures from observational data on gridded domains. Companion code for the [JGR: Machine Learning and Computation paper](https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2024JH000546).
+**[CaStLe](https://github.com/jjakenichol/CaStLe)**: Causal Space-Time Stencil Learning. Recovers local causal space-time structures from observational data on gridded domains. Companion code for the [JGR: Machine Learning and Computation paper](https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2024JH000546).
 
-**[clif](https://github.com/sandialabs/clif)** — CLImate Fingerprinting. A Python library that computes empirical orthogonal functions, primarily for climate data. Developed with Kenny Chowdhary.
+**[clif](https://github.com/sandialabs/clif)**: CLImate Fingerprinting. A Python library that computes empirical orthogonal functions, primarily for climate data. Developed with Kenny Chowdhary.
 
 ---
 

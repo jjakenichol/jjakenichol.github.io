@@ -2,7 +2,7 @@
 
 Source for my personal academic site, live at **[www.jjakenichol.com](https://www.jjakenichol.com)**.
 
-Built with [Jekyll](https://jekyllrb.com/) on the [al-folio](https://github.com/alshedivat/al-folio) theme (MIT — see `LICENSE`).
+Built with [Jekyll](https://jekyllrb.com/) on the [al-folio](https://github.com/alshedivat/al-folio) theme (MIT; see `LICENSE`).
 
 ## Deploying
 
@@ -17,7 +17,7 @@ The custom domain comes from `./CNAME` (`www.jjakenichol.com`), which must stay 
 | To change...                        | Edit                                                 |
 | ----------------------------------- | ---------------------------------------------------- |
 | Homepage bio                        | `_pages/about.md`                                    |
-| Publications                        | `_bibliography/papers.bib` — read the header comments |
+| Publications                        | `_bibliography/papers.bib`; read the header comments |
 | Which papers appear on the homepage | `selected = {true}` on an entry in `papers.bib`       |
 | The CV page at `/cv/`               | `assets/json/resume.json` (**not** `_data/cv.yml`)   |
 | Downloadable CV PDF                 | `assets/pdf/JakeCV.pdf`                              |
@@ -42,7 +42,7 @@ The custom domain comes from `./CNAME` (`www.jjakenichol.com`), which must stay 
 
 ## Running locally
 
-Requires Ruby **3.3.3** — `mini_racer` fails to build against the 3.2.2 that rbenv defaults to here:
+Requires Ruby **3.3.3**; `mini_racer` fails to build against the 3.2.2 that rbenv defaults to here:
 
 ```sh
 RBENV_VERSION=3.3.3 bundle install

@@ -4,7 +4,7 @@
     "label": "Postdoctoral Appointee, Scientific Machine Learning, Sandia National Laboratories",
     "image": "",
     "email": "jefnich@sandia.gov",
-    "url": "https://jjakenichol.github.io",
+    "url": "https://www.jjakenichol.com",
     "summary": "My research advances AI Credibility for high-consequence scientific and national security applications: I believe consequential decisions demand mechanistic understanding, not black-box correlation. I develop causal discovery and physics-informed modeling methods to improve the interpretability, robustness, and evidence-based assurance of AI-enabled systems, including foundation and generative models. This is motivated by a broader interest in discovering new dynamics and phenomena in high-consequence domains and the natural sciences, particularly Earth systems, and in how credibility evidence supports human trust and decision-making.",
     "location": {
       "city": "Albuquerque",
@@ -126,7 +126,7 @@
   ],
   "projects": [
     {
-      "name": "MetaShield LDRD — Co-Lead, Causal AI Team",
+      "name": "MetaShield LDRD: Co-Lead, Causal AI Team",
       "startDate": "2026",
       "endDate": "",
       "summary": "PI: Georgios Fragkos. Combining causal AI with meta-learning to enhance ML detection of cyber-physical threats to power grids.",
@@ -136,7 +136,7 @@
       ]
     },
     {
-      "name": "SEA-CROGS — Contributor",
+      "name": "SEA-CROGS: Contributor",
       "startDate": "2026",
       "endDate": "",
       "summary": "PI: Eric Cyr. Scalable, Efficient and Accelerated Causal Reasoning Operators, Graphs and Spikes for Earth and Embedded Systems.",
@@ -146,7 +146,7 @@
       ]
     },
     {
-      "name": "Towards Certifying Trustworthy Machine Learning LDRD — Team Lead, Credibility",
+      "name": "Towards Certifying Trustworthy Machine Learning LDRD: Team Lead, Credibility",
       "startDate": "2025",
       "endDate": "",
       "summary": "PI: Michael Darling. Co-leading the credibility assessment effort.",
@@ -157,7 +157,7 @@
       ]
     },
     {
-      "name": "CLDERA Grand Challenge LDRD — Causal Modeling Lead, Attribution Thrust",
+      "name": "CLDERA Grand Challenge LDRD: Causal Modeling Lead, Attribution Thrust",
       "url": "https://www.sandia.gov/cldera/",
       "startDate": "2022",
       "endDate": "2024",
@@ -168,7 +168,7 @@
       ]
     },
     {
-      "name": "Causal Evaluations for Identifying Differences Between Observations and Earth System Models (Late-Start LDRD) — Contributor",
+      "name": "Causal Evaluations for Identifying Differences Between Observations and Earth System Models (Late-Start LDRD): Contributor",
       "startDate": "2021",
       "endDate": "2021",
       "summary": "PI: Matt Peterson.",
@@ -177,14 +177,14 @@
       ]
     },
     {
-      "name": "Advanced Data Analytics for Proliferation Detection (ADAPD) — Contributor",
+      "name": "Advanced Data Analytics for Proliferation Detection (ADAPD): Contributor",
       "startDate": "2020",
       "endDate": "2022",
       "summary": "A multi-lab initiative.",
       "highlights": ["Developed hidden Markov models for multimodal temporal data analysis."]
     },
     {
-      "name": "Arctic Tipping Points Triggering Global Change LDRD — Contributor",
+      "name": "Arctic Tipping Points Triggering Global Change LDRD: Contributor",
       "startDate": "2018",
       "endDate": "2020",
       "summary": "PI: Kara Peterson.",
@@ -241,7 +241,7 @@
       "publisher": "Journal of Geophysical Research: Machine Learning and Computation",
       "releaseDate": "2025",
       "url": "https://doi.org/10.1029/2024jh000546",
-      "summary": "Introduces Causal Space-Time Stencil Learning (CaStLe), a meta-algorithm that leverages regularities in local space-time dependencies to learn governing global dynamics. This local perspective eliminates spurious confounding and drastically reduces sample complexity, making space-time causal discovery practical and effective — including for non-periodic, transient phenomena such as volcanic eruption plumes."
+      "summary": "Introduces Causal Space-Time Stencil Learning (CaStLe), a meta-algorithm that leverages regularities in local space-time dependencies to learn governing global dynamics. This local perspective eliminates spurious confounding and drastically reduces sample complexity, making space-time causal discovery practical and effective, including for non-periodic, transient phenomena such as volcanic eruption plumes."
     },
     {
       "name": "Seeking Structure in Complex Systems: From Feature Analysis to Space-Time Causal Discovery With Earth Science Applications",
@@ -262,7 +262,7 @@
       "publisher": "Sandia National Laboratories technical report",
       "releaseDate": "2023",
       "url": "https://www.osti.gov/biblio/1991387",
-      "summary": "Benchmarks the PCMCI causal discovery algorithm on gridded spatiotemporal systems, finding that it requires unrealistic sample sizes and suffers a notable curse of dimensionality — motivating the development of CaStLe."
+      "summary": "Benchmarks the PCMCI causal discovery algorithm on gridded spatiotemporal systems, finding that it requires unrealistic sample sizes and suffers a notable curse of dimensionality, which motivated the development of CaStLe."
     },
     {
       "name": "Machine Learning Feature Analysis Illuminates Disparity Between E3SM Climate Models and Observed Climate Change",
