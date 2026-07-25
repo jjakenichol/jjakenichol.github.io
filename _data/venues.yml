@@ -1,9 +1,24 @@
-"AJP":
-  url: https://aapt.scitation.org/journal/ajp
-  color: "#00369f"
+# Optional per-venue styling for the `abbr` badges on the publications page.
+# Any abbr not listed here falls back to the site theme color, so this file only
+# needs entries where you want a different color or a link.
+#
+# Muted gray marks work that is not yet peer-reviewed/published, so it reads
+# differently from published venues at a glance.
 
-"PhysRev":
-  url: https://journals.aps.org/
+"Preprint":
+  color: "#6c757d"
 
-"Vision":
-  color: "#009f36"
+"In Prep":
+  color: "#6c757d"
+
+"RWS":
+  color: "#6c757d"
+
+"PNAS":
+  color: "#6c757d"
+
+"SNL Report":
+  color: "#4a5568"
+
+"White Paper":
+  color: "#4a5568"

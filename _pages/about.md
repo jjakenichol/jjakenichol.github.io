@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: Sandia National Laboratories
+subtitle: Postdoctoral Appointee, Scientific Machine Learning, <a href="https://www.sandia.gov/">Sandia National Laboratories</a>
 
 profile:
   align: right
@@ -12,15 +12,15 @@ profile:
   #   <p>555 your office number</p>
   #   <p>123 your address street</p>
   #   <p>Your City, State 12345</p>
-news: false # includes a list of news items
+news: true # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-I'm a Postdoctoral Appointee in the Scientific Machine Learning department at Sandia National Laboratories, where I conduct research on causal discovery methods and trustworthy machine learning. I recently completed my PhD in Computer Science at the University of New Mexico, where my dissertation focused on causal analysis methods for complex spatiotemporal systems, such as climate and Earth system models. Specifically, I developed Causal Space-Time Stencil Learning (CaStLe), a causal discovery algorithm that can recover local causal structures in spatiotemporal data. My PhD advisor was Dr. Melanie Moses and I was mentored by Dr. Matthew Fricke, Dr. Laura Swiler, Dr. Michael Weylandt, and Dr. Matt Peterson.
+I'm a Postdoctoral Appointee in the Scientific Machine Learning department at [Sandia National Laboratories](https://www.sandia.gov/). My research advances **AI credibility** for high-consequence scientific and national security applications, on the conviction that consequential decisions demand mechanistic understanding, not black-box correlation.
 
-My current research encompasses trustworthy ML applications and causal inference methodologies. Previously, my doctoral research was funded by Sandia's Lab Driven Research & Development (LDRD) Grand Challenge, CLDERA (CLimate impact: Determining Etiology thRough pAthways), led by Diana Bull, to develop tools for identifying etiological pathways in the climate. For more information, [click here](https://www.sandia.gov/cldera/).
+I develop causal discovery and physics-informed modeling methods that improve the interpretability, robustness, and evidence-based assurance of AI-enabled systems, including foundation and generative models. Underneath that is a broader interest in discovering new dynamics and phenomena in high-consequence domains and the natural sciences — particularly Earth systems — and in how credibility evidence supports human trust and decision-making.
 
-<!-- Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+I completed my PhD in Computer Science at the University of New Mexico in 2025. My dissertation developed causal analysis methods for complex spatiotemporal systems such as climate and Earth system models, centered on [**CaStLe**](https://github.com/jjakenichol/CaStLe) (Causal Space-Time Stencil Learning), an algorithm that recovers local causal structure from gridded space-time data. My advisor was Dr. Melanie Moses, and I was mentored by Dr. Matthew Fricke, Dr. Laura Swiler, Dr. Michael Weylandt, and Dr. Matt Peterson.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them. -->
+My doctoral research was funded by Sandia's Laboratory Directed Research & Development (LDRD) Grand Challenge [CLDERA](https://www.sandia.gov/cldera/) (CLimate impact: Determining Etiology thRough pAthways), led by Diana Bull, which developed tools for identifying etiological pathways in the climate. I now co-lead the causal AI team on the MetaShield LDRD, lead the credibility effort on the Towards Certifying Trustworthy Machine Learning LDRD, and contribute to SEA-CROGS.

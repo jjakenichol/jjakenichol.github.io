@@ -1,131 +1,308 @@
 ---
 ---
 
-@string{aps = {American Physical Society,}}
+%% ============================================================================
+%% Publications. Rendered by /publications/ and (for selected={true}) the
+%% homepage. Grouped by year, newest first — the section comments below are
+%% only for humans editing this file; they do not affect the output.
+%%
+%% Recognized extra fields (see _layouts/bib.liquid):
+%%   abbr            badge text at left; color/link configured in _data/venues.yml
+%%   selected        {true} -> also appears on the homepage
+%%   note            free line under the entry; used here for status
+%%                   ("Accepted", "Under review", "In preparation")
+%%   additional_info shown next to the venue; markdown allowed (*italics*)
+%%   abstract, html, pdf, arxiv, code, supp, slides, poster, website -> buttons
+%%   bibtex_show     {true} -> adds a "Bib" button exposing the raw entry
+%%
+%% !! DO NOT ADD A `month` FIELD !!
+%% jekyll-scholar leaks a month onto every FOLLOWING entry that lacks one, so a
+%% single `month = sep` silently stamps the wrong date on later publications.
+%% Years alone are correct and consistent; leave months to the PDF CV.
+%% ============================================================================
 
-@phdthesis{nichol2025thesis,
-  abbr     = {Dissertation},
-  author   = {Nichol, J. Jake},
-  title    = {Seeking Structure in Complex Systems: From Feature Analysis to Space-Time Causal Discovery With Earth Science Applications},
-  school   = {The University of New Mexico},
-  year     = {2025},
-  month    = jul,
-  address  = {Albuquerque, NM},
-  type     = {{PhD} dissertation},
-  note     = {Advisor: Melanie E. Moses. Committee: G. Matthew Fricke, Abdullah Mueen, Tobias P. Fischer, Laura P. Swiler},
-  pdf      = {Dissertation.pdf},
-  html     = {https://digitalrepository.unm.edu/cs_etds/135},
-  abstract = {Complex systems are difficult to study because of their many interacting parts, emergent phenomena, and feedback loops. These systems underpin all life on Earth. We need improved tools for seeking an understanding of them. This body of research presents my investigations into data-driven methods for understanding complex systems, including my invention of a novel causal discovery meta-algorithm for space-time gridded data. I demonstrated machine learning feature importance and causal discovery capabilities for comparing simulated and observed climate data. I developed a new benchmark for modeling space-time dynamics of locally driven phenomena and examined a prominent causal discovery algorithm. Finding that contemporary causal discovery struggles with the high-dimensionality of space-time gridded data, I developed CaStLe, a causal discovery meta-algorithm for recovering the space-time evolution of advective phenomena. Finally, I extended CaStLeto recover multivariate space-time dynamics. This research enhances scientists' capabilities to explore and understand complex systems in our universe.},
-  keywords = {causal discovery, machine learning, Earth science, climate, volcano},
-  selected = {true}
+%% ----------------------------------------------------------------------------
+%% 2026 — accepted / in press
+%% ----------------------------------------------------------------------------
+
+@article{Nichol.2026.accepted.certifyingML,
+  abbr            = {DSS},
+  year            = {2026},
+  title           = {{Challenges of Certifying Machine Learning Trustworthiness in High-Consequence Domains}},
+  author          = {Nichol, J. Jake and Milewicz, Reed M. and Kinney, Adrienne C. and Grayson, Samuel A. and Smith, Mark A. and Butler, Karin M. and Acquesta, Erin C. S. and Darling, Michael C.},
+  journal         = {Data Science in Science},
+  note            = {Accepted},
+  bibtex_show     = {true},
+  selected        = {true}
 }
+
+@inproceedings{Adikaibe.2026.accepted.multiobjective,
+  abbr            = {MDAI},
+  year            = {2026},
+  title           = {{A Multi-Objective Optimization Framework for Trustworthy Machine Learning}},
+  author          = {Adikaibe, E. Boaz and Dessanti, Alexander I. and Nichol, J. Jake and Smith, Mark A. and Darling, Michael C.},
+  booktitle       = {Proceedings of Modeling Decisions for Artificial Intelligence (MDAI) 2026},
+  note            = {To appear},
+  bibtex_show     = {true}
+}
+
+@inproceedings{Fragkos.2026.accepted.causalAI,
+  abbr            = {SmartGridComm},
+  year            = {2026},
+  title           = {{Causal AI-Powered Dynamic ML Model Orchestration for Robust Cybersecurity}},
+  author          = {Fragkos, Georgios and Nichol, J. Jake and Yen, Tian Yu and Blakely, Logan and Hossain-McKenzie, Shamina and Chavez, Adrian and Wright, Sidney},
+  booktitle       = {Proceedings of the IEEE International Conference on Communications, Control, and Computing Technologies for Smart Grids (SmartGridComm) 2026},
+  note            = {To appear},
+  bibtex_show     = {true}
+}
+
+%% ----------------------------------------------------------------------------
+%% 2026 — under review
+%% ----------------------------------------------------------------------------
+
+@unpublished{PerezCarrasquilla.2026.submitted.tracing,
+  abbr            = {Preprint},
+  year            = {2026},
+  title           = {{Tracing the Space-Time Causal Origins of Earth System Extremes}},
+  author          = {P{\'e}rez-Carrasquilla, Jhayron S. and Nichol, J. Jake and Robledo, Vanessa and Bull, Diana and Dagon, Katherine and Evans, Michael N. and Molina, Maria J.},
+  additional_info = {Submitted to *Science Advances*},
+  note            = {Under review},
+  arxiv           = {2607.10033},
+  bibtex_show     = {true}
+}
+
+@unpublished{Nichol.2026.submitted.causalgraphs,
+  abbr            = {RWS},
+  year            = {2026},
+  title           = {{Causal Graphs for Threat Detection in Cyber-Physical Power Grids}},
+  author          = {Nichol, J. Jake and Blakely, Logan and Fragkos, Georgios},
+  additional_info = {Submitted to *IEEE Resilience Week (RWS) 2026*},
+  note            = {Under review},
+  bibtex_show     = {true}
+}
+
+%% ----------------------------------------------------------------------------
+%% In preparation
+%% ----------------------------------------------------------------------------
+
+@unpublished{Nichol.inprep.mcastle,
+  abbr            = {Preprint},
+  year            = {2026},
+  title           = {{M-CaStLe: Uncovering Local Causal Structures in Multivariate Space-Time Gridded Data}},
+  author          = {Nichol, J. Jake and Weylandt, Michael and Fricke, G. Matthew and Moses, Melanie E.},
+  additional_info = {Target: *Transactions on Machine Learning Research* (TMLR)},
+  note            = {In preparation},
+  arxiv           = {2605.00398},
+  code            = {https://github.com/jjakenichol/CaStLe},
+  bibtex_show     = {true},
+  selected        = {true}
+}
+
+@unpublished{Croker.inprep.institutions,
+  abbr            = {PNAS},
+  year            = {2026},
+  title           = {{Designing Institutions for an Era of Contested Expertise}},
+  author          = {Croker, A. R. and Guariso, D. and Landgren, E. and Posch, K. and Wiechman, A. and Zajdela, E. and Nichol, J. Jake},
+  additional_info = {Opinion. Target: *Proceedings of the National Academy of Sciences* (PNAS)},
+  note            = {In preparation},
+  bibtex_show     = {true}
+}
+
+@unpublished{Goode.inprep.explanations,
+  abbr            = {In Prep},
+  year            = {2026},
+  title           = {{If All Explanations Are Wrong, but Some Are Useful, How Do We Determine Which Are Credible?}},
+  author          = {Goode, Katherine and Nichol, J. Jake},
+  note            = {In preparation},
+  bibtex_show     = {true}
+}
+
+%% ----------------------------------------------------------------------------
+%% 2025
+%% ----------------------------------------------------------------------------
 
 @article{Nichol.2025.10.1029/2024jh000546,
-  abbr     = {JGR:MLC},
-  year     = {2025},
-  title    = {{Space-Time Causal Discovery in Earth System Science: A Local Stencil Learning Approach}},
-  author   = {Nichol, J. Jake and Weylandt, Michael and Fricke, G. Matthew and Moses, Melanie E. and Bull, Diana and Swiler, Laura P.},
-  journal  = {Journal of Geophysical Research: Machine Learning and Computation},
-  issn     = {2993-5210},
-  doi      = {10.1029/2024jh000546},
-  url      = {https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2024JH000546},
-  html     = {https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2024JH000546},
-  pdf      = {https://agupubs.onlinelibrary.wiley.com/doi/epdf/10.1029/2024JH000546},
-  abstract = {{Causal discovery tools enable scientists to infer meaningful relationships from observational data, spurring advances in fields as diverse as biology, economics, and climate science. Despite these successes, the application of causal discovery to space-time systems remains immensely challenging due to the high-dimensional nature of the data. For example, in climate sciences, modern observational temperature records over the past few decades regularly measure thousands of locations around the globe. To address these challenges, we introduce Causal Space-Time Stencil Learning (CaStLe), a novel meta-algorithm for discovering causal structures in complex space-time systems. CaStLe leverages regularities in local space-time dependencies to learn governing global dynamics. This local perspective eliminates spurious confounding and drastically reduces sample complexity, making space-time causal discovery practical and effective. For causal discovery, CaStLe flexibly accepts any appropriately adapted time series causal discovery algorithm to recover local causal structures. These advances enable causal discovery of geophysical phenomena that were previously unapproachable, including non-periodic, transient phenomena such as volcanic eruption plumes. Regularities in local space-time dependencies are transformed into informative spatial replicates, which actually improve CaStLe's performance when applied to ever-larger spatial grids. We successfully apply CaStLe to discover the atmospheric dynamics governing the climate response to the 1991 Mount Pinatubo volcanic eruption. We provide validation experiments to demonstrate the effectiveness of CaStLe over existing causal-discovery frameworks on a range of geophysics-inspired benchmarks while identifying the method's limitations and domains where its assumptions may not hold. We introduce a new method for learning the dynamics of causal systems, that is, the physical rules that define a system's behavior. Although this task, causal discovery, is not new, existing tools are ill-suited for many large geophysics data sets. Current state-of-the-art approaches use statistical techniques to search for causal relationships between all aspects of a system, examining billions of possible causal effects, or simplifying the data by focusing on the most important variables. Instead of an exhaustive search or oversimplifying the data, we incorporate basic physical principles—requiring effects to be “local” and “uniform”—to massively simplify the causal discovery problem. We demonstrate that our approach can recover known geophysical dynamics by applying it to the 1991 Mt. Pinatubo eruption, validating its ability to uncover space-time causal structure from observational data. We introduce Causal Space-Time Stencil Learning (CaStLe) for learning local causal dynamical structure underlying space-time data CaStLe enables previously infeasible analyses of grid-cell-level Earth system data, significantly outperforming traditional methods We demonstrate this new capability by recovering the space-time evolution of atmospheric aerosol flow weeks post-volcanic eruption We introduce Causal Space-Time Stencil Learning (CaStLe) for learning local causal dynamical structure underlying space-time data CaStLe enables previously infeasible analyses of grid-cell-level Earth system data, significantly outperforming traditional methods We demonstrate this new capability by recovering the space-time evolution of atmospheric aerosol flow weeks post-volcanic eruption}},
-  number   = {3},
-  volume   = {2},
-  selected = {true}
+  abbr        = {JGR:MLC},
+  preview     = {castle_stencil.jpg},
+  year        = {2025},
+  title       = {{Space-Time Causal Discovery in Earth System Science: A Local Stencil Learning Approach}},
+  author      = {Nichol, J. Jake and Weylandt, Michael and Fricke, G. Matthew and Moses, Melanie E. and Bull, Diana and Swiler, Laura P.},
+  journal     = {Journal of Geophysical Research: Machine Learning and Computation},
+  issn        = {2993-5210},
+  doi         = {10.1029/2024jh000546},
+  url         = {https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2024JH000546},
+  html        = {https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2024JH000546},
+  pdf         = {https://agupubs.onlinelibrary.wiley.com/doi/epdf/10.1029/2024JH000546},
+  code        = {https://github.com/jjakenichol/CaStLe},
+  abstract    = {{Causal discovery tools enable scientists to infer meaningful relationships from observational data, spurring advances in fields as diverse as biology, economics, and climate science. Despite these successes, the application of causal discovery to space-time systems remains immensely challenging due to the high-dimensional nature of the data. For example, in climate sciences, modern observational temperature records over the past few decades regularly measure thousands of locations around the globe. To address these challenges, we introduce Causal Space-Time Stencil Learning (CaStLe), a novel meta-algorithm for discovering causal structures in complex space-time systems. CaStLe leverages regularities in local space-time dependencies to learn governing global dynamics. This local perspective eliminates spurious confounding and drastically reduces sample complexity, making space-time causal discovery practical and effective. For causal discovery, CaStLe flexibly accepts any appropriately adapted time series causal discovery algorithm to recover local causal structures. These advances enable causal discovery of geophysical phenomena that were previously unapproachable, including non-periodic, transient phenomena such as volcanic eruption plumes. Regularities in local space-time dependencies are transformed into informative spatial replicates, which actually improve CaStLe's performance when applied to ever-larger spatial grids. We successfully apply CaStLe to discover the atmospheric dynamics governing the climate response to the 1991 Mount Pinatubo volcanic eruption. We provide validation experiments to demonstrate the effectiveness of CaStLe over existing causal-discovery frameworks on a range of geophysics-inspired benchmarks while identifying the method's limitations and domains where its assumptions may not hold.}},
+  number      = {3},
+  volume      = {2},
+  bibtex_show = {true},
+  selected    = {true}
 }
+
+@phdthesis{nichol2025thesis,
+  abbr        = {Dissertation},
+  author      = {Nichol, J. Jake},
+  title       = {{Seeking Structure in Complex Systems: From Feature Analysis to Space-Time Causal Discovery With Earth Science Applications}},
+  school      = {The University of New Mexico},
+  year        = {2025},
+  address     = {Albuquerque, NM},
+  type        = {{PhD} dissertation},
+  note        = {Advisor: Melanie E. Moses. Committee: G. Matthew Fricke, Abdullah Mueen, Tobias P. Fischer, Laura P. Swiler},
+  pdf         = {Dissertation.pdf},
+  html        = {https://digitalrepository.unm.edu/cs_etds/135},
+  abstract    = {Complex systems are difficult to study because of their many interacting parts, emergent phenomena, and feedback loops. These systems underpin all life on Earth. We need improved tools for seeking an understanding of them. This body of research presents my investigations into data-driven methods for understanding complex systems, including my invention of a novel causal discovery meta-algorithm for space-time gridded data. I demonstrated machine learning feature importance and causal discovery capabilities for comparing simulated and observed climate data. I developed a new benchmark for modeling space-time dynamics of locally driven phenomena and examined a prominent causal discovery algorithm. Finding that contemporary causal discovery struggles with the high-dimensionality of space-time gridded data, I developed CaStLe, a causal discovery meta-algorithm for recovering the space-time evolution of advective phenomena. Finally, I extended CaStLe to recover multivariate space-time dynamics. This research enhances scientists' capabilities to explore and understand complex systems in our universe.},
+  keywords    = {causal discovery, machine learning, Earth science, climate, volcano},
+  bibtex_show = {true},
+  selected    = {true}
+}
+
+%% ----------------------------------------------------------------------------
+%% 2024
+%% ----------------------------------------------------------------------------
 
 @techreport{Bull2024CLDERA,
-  abbr        = {SNL Report},
-  author      = {Diana Bull and Kara Peterson and Lyndsay Shand and Laura Swiler and Irina Tezaur and Ben K. Cook and Andrew Salinger and Clare Amann and Bernadette Watts and Rob Leland and Luca Bertagna and Hunter Brown and Meredith Brown and Mauricio Campos and Max Carlson and Kenny Chowdhary and Joseph Crockett and Warren Davis and Thomas Ehrmann and Robert Garrett and Katherine Goode and Mamikon Gulian and Carole Hall and Graham Harper and Joseph Hart and James Hickey and Benjamin Hillman and Brent Houchens and Jose Gabriel Huerta and Daniel Krofcheck and Justin Li and Indu Manickam and Kellie McClernon and Audrey McCombs and J. Jake Nichol and Matthew Peterson and Daniel Ries and Mark A. Smith and Andrea Staid and Andrew Steyer and James Derek Tucker and Benjamin Wagman and Jerry Watkins and Christopher Wentland and Everett Wenzel and Robert Michael Weylandt and Andrew Yarger},
-  title       = {{CLimate Impact: Determining Etiology thRough pAthways (CLDERA)}},
-  institution = {Sandia National Laboratories},
-  number      = {SAND2024-13423R},
-  address     = {Albuquerque, NM},
-  month       = sep,
-  year        = {2024},
-  doi         = {10.2172/2480139},
-  abstract    = {Climate impacts have broad economic, health, political, and national security ramifications. Societally relevant impacts are typically farther downstream, are the product of multiple interacting processes, and can arise over small regions and timeframes because their sources are short-term and localized. Short-term forcings (as can be seen in volcanic eruptions, climatic tipping points (e.g., the collapse of rainforests or the disappearance of sea ice), or in increasingly plausible climate interventions) fundamentally possess low signal-to-noise and could benefit from accounting for the multiple conditional processes through which a downstream impact arises. Under the Grand Challenge LDRD CLDERA (CLimate impacts: Discovering Etiology thRough pAthways), we have developed tools to enable downstream impact attribution from geographically and temporally localized source forcings in the climate. CLDERA developed methods that can distinguish how a localized source drives the climate system to respond with particular impacts. The how is embodied in pathways – the spatio-temporally evolving chain of physical processes that connects a source to a series of increasingly distant impacts. Novel analytic methods in pursuit of downstream impact attribution were developed and demonstrated on simulations and observations of the 1991 eruption of Mt. Pinatubo in the Philippines. As described within this report we have • developed stratospheric expertise and aerosol modeling capabilities in E3SM, • created original methods to detect and model pathways from source-to-impact, and • advanced climate attribution through novel methods, cases, and approaches. Further, CLDERA developed a tiered verification process consisting of controlled datasets to prototype, verify, and refine the original method development. CLDERA increased Sandia’s footprint in the climate analytics community and developed new climate collaborations whilst also creating a cadre of climate analysts at Sandia. The products from CLDERA have been extensive with a total of 9 journal articles published, 12 articles submitted and under review, and an additional 8 articles in preparation. We have produced 1750 simulated years and developed 9 code-bases. This report details these accomplishments and serves as a summary of the work completed during the CLDERA Grand Challenge.},
-  html        = {https://www.osti.gov/biblio/2480139},
-  pdf         = {https://www.osti.gov/servlets/purl/2480139}
+  abbr            = {SNL Report},
+  author          = {Diana Bull and Kara Peterson and Lyndsay Shand and Laura Swiler and Irina Tezaur and Ben K. Cook and Andrew Salinger and Clare Amann and Bernadette Watts and Rob Leland and Luca Bertagna and Hunter Brown and Meredith Brown and Mauricio Campos and Max Carlson and Kenny Chowdhary and Joseph Crockett and Warren Davis and Thomas Ehrmann and Robert Garrett and Katherine Goode and Mamikon Gulian and Carole Hall and Graham Harper and Joseph Hart and James Hickey and Benjamin Hillman and Brent Houchens and Jose Gabriel Huerta and Daniel Krofcheck and Justin Li and Indu Manickam and Kellie McClernon and Audrey McCombs and J. Jake Nichol and Matthew Peterson and Daniel Ries and Mark A. Smith and Andrea Staid and Andrew Steyer and James Derek Tucker and Benjamin Wagman and Jerry Watkins and Christopher Wentland and Everett Wenzel and Robert Michael Weylandt and Andrew Yarger},
+  title           = {{CLimate Impact: Determining Etiology thRough pAthways (CLDERA)}},
+  institution     = {Sandia National Laboratories},
+  number          = {SAND2024-13423R},
+  address         = {Albuquerque, NM},
+  additional_info = {Sandia National Laboratories, Tech. Rep. SAND2024-13423R},
+  year            = {2024},
+  doi             = {10.2172/2480139},
+  abstract        = {Climate impacts have broad economic, health, political, and national security ramifications. Societally relevant impacts are typically farther downstream, are the product of multiple interacting processes, and can arise over small regions and timeframes because their sources are short-term and localized. Short-term forcings (as can be seen in volcanic eruptions, climatic tipping points (e.g., the collapse of rainforests or the disappearance of sea ice), or in increasingly plausible climate interventions) fundamentally possess low signal-to-noise and could benefit from accounting for the multiple conditional processes through which a downstream impact arises. Under the Grand Challenge LDRD CLDERA (CLimate impacts: Discovering Etiology thRough pAthways), we have developed tools to enable downstream impact attribution from geographically and temporally localized source forcings in the climate. CLDERA developed methods that can distinguish how a localized source drives the climate system to respond with particular impacts. The how is embodied in pathways -- the spatio-temporally evolving chain of physical processes that connects a source to a series of increasingly distant impacts. Novel analytic methods in pursuit of downstream impact attribution were developed and demonstrated on simulations and observations of the 1991 eruption of Mt. Pinatubo in the Philippines.},
+  html            = {https://www.osti.gov/biblio/2480139},
+  pdf             = {https://www.osti.gov/servlets/purl/2480139},
+  bibtex_show     = {true}
 }
 
-@techreport{osti_1669210,
-  abbr   = {SNL Report},
-  title  = {Arctic Tipping Points Triggering Global Change (LDRD Final Report)},
-  author = {Peterson, Kara J. and Powell, Amy Jo and Tezaur, Irina Kalashnikova and Roesler, Erika Louise and Nichol, Jake and Peterson, Matthew Gregor and Davis, Warren Leon and Jakeman, John Davis and Stracuzzi, David John and Bull, Diana L.},
-  doi    = {10.2172/1669210},
-  url    = {https://www.osti.gov/biblio/1669210},
-  html   = {https://www.osti.gov/biblio/1669210},
-  place  = {United States},
-  year   = {2020},
-  month  = {9}
-}
+%% ----------------------------------------------------------------------------
+%% 2023
+%% ----------------------------------------------------------------------------
+
 @techreport{Nichol.2023.10.2172/1991387,
-  abbr     = {SNL Report},
-  year     = {2023},
-  author   = {Nichol, J. Jake and Weylandt, Michael and Smith, Mark and Swiler, Laura},
-  title    = {{Benchmarking the PCMCI Causal Discovery Algorithm for Spatiotemporal Systems}},
-  abstract = {{Causal discovery algorithms construct hypothesized causal graphs that depict causal dependencies among variables in observational data. While powerful, the accuracy of these algorithms is highly sensitive to the underlying dynamics of the system in ways that have not been fully characterized in the literature. In this report, we benchmark the PCMCI causal discovery algorithm in its application to gridded spatiotemporal systems. Effectively computing grid-level causal graphs on large grids will enable analysis of the causal impacts of transient and mobile spatial phenomena in large systems, such as the Earth’s climate. We evaluate the performance of PCMCI with a set of structural causal models, using simulated spatial vector autoregressive processes in one-and two-dimensions. We develop computational and analytical tools for characterizing these processes and their associated causal graphs.
-              Our findings suggest that direct application of PCMCI is not suitable for the analysis of dynamical spatiotemporal gridded systems, such as climatological data, without significant preprocessing and downscaling of the data. PCMCI requires unrealistic sample sizes to achieve acceptable performance on even modestly sized problems and suffers from a notable curse of dimensionality. This work suggests that, even under generous structural assumptions, significant additional algorithmic improvements are needed before causal discovery algorithms can be reliably applied to grid-level outputs of earth system models.}},
-  url      = {https://www.osti.gov/biblio/1991387},
-  html     = {https://www.osti.gov/biblio/1991387},
-  pdf      = {https://www.osti.gov/servlets/purl/1991387},
-  keywords = {},
-  selected = {true}
+  abbr            = {SNL Report},
+  year            = {2023},
+  author          = {Nichol, J. Jake and Weylandt, Michael and Smith, Mark and Swiler, Laura},
+  title           = {{Benchmarking the PCMCI Causal Discovery Algorithm for Spatiotemporal Systems}},
+  institution     = {Sandia National Laboratories},
+  additional_info = {Sandia National Laboratories},
+  abstract        = {{Causal discovery algorithms construct hypothesized causal graphs that depict causal dependencies among variables in observational data. While powerful, the accuracy of these algorithms is highly sensitive to the underlying dynamics of the system in ways that have not been fully characterized in the literature. In this report, we benchmark the PCMCI causal discovery algorithm in its application to gridded spatiotemporal systems. Effectively computing grid-level causal graphs on large grids will enable analysis of the causal impacts of transient and mobile spatial phenomena in large systems, such as the Earth's climate. We evaluate the performance of PCMCI with a set of structural causal models, using simulated spatial vector autoregressive processes in one- and two-dimensions. We develop computational and analytical tools for characterizing these processes and their associated causal graphs. Our findings suggest that direct application of PCMCI is not suitable for the analysis of dynamical spatiotemporal gridded systems, such as climatological data, without significant preprocessing and downscaling of the data. PCMCI requires unrealistic sample sizes to achieve acceptable performance on even modestly sized problems and suffers from a notable curse of dimensionality. This work suggests that, even under generous structural assumptions, significant additional algorithmic improvements are needed before causal discovery algorithms can be reliably applied to grid-level outputs of earth system models.}},
+  url             = {https://www.osti.gov/biblio/1991387},
+  html            = {https://www.osti.gov/biblio/1991387},
+  pdf             = {https://www.osti.gov/servlets/purl/1991387},
+  bibtex_show     = {true}
 }
+
+%% ----------------------------------------------------------------------------
+%% 2021
+%% ----------------------------------------------------------------------------
+
 @article{Nichol.2021.10.1016/j.cam.2021.113451,
-  abbr     = {JCAM},
-  year     = {2021},
-  title    = {{Machine learning feature analysis illuminates disparity between E3SM climate models and observed climate change}},
-  author   = {Nichol, J. Jake and Peterson, Matthew G. and Peterson, Kara J. and Fricke, G. Matthew and Moses, Melanie E.},
-  journal  = {Journal of Computational and Applied Mathematics},
-  abstract = {{In September of 2020, Arctic sea ice extent was the second-lowest on record. State of the art climate prediction uses Earth system models (ESMs), driven by systems of differential equations representing the laws of physics. Previously, these models have tended to underestimate Arctic sea ice loss. The issue is grave because accurate modeling is critical for economic, ecological, and geopolitical planning. We use machine learning techniques, including random forest regression and Gini importance, to show that the Energy Exascale Earth System Model (E3SM) relies too heavily on just one of the ten chosen climatological quantities to predict September sea ice averages. Furthermore, E3SM gives too much importance to six of those quantities when compared to observed data. Identifying the features that climate models incorrectly rely on should allow climatologists to improve prediction accuracy.}},
-  pdf      = {https://www.osti.gov/servlets/purl/1782577},
-  issn     = {0377-0427},
-  doi      = {10.1016/j.cam.2021.113451},
-  url      = {https://www.sciencedirect.com/science/article/abs/pii/S0377042721000704},
-  html     = {https://www.sciencedirect.com/science/article/abs/pii/S0377042721000704},
-  pages    = {113451},
-  volume   = {395},
-  keywords = {},
-  month    = {10},
-  selected = {true}
+  abbr        = {JCAM},
+  year        = {2021},
+  title       = {{Machine Learning Feature Analysis Illuminates Disparity Between E3SM Climate Models and Observed Climate Change}},
+  author      = {Nichol, J. Jake and Peterson, Matthew G. and Peterson, Kara J. and Fricke, G. Matthew and Moses, Melanie E.},
+  journal     = {Journal of Computational and Applied Mathematics},
+  abstract    = {{In September of 2020, Arctic sea ice extent was the second-lowest on record. State of the art climate prediction uses Earth system models (ESMs), driven by systems of differential equations representing the laws of physics. Previously, these models have tended to underestimate Arctic sea ice loss. The issue is grave because accurate modeling is critical for economic, ecological, and geopolitical planning. We use machine learning techniques, including random forest regression and Gini importance, to show that the Energy Exascale Earth System Model (E3SM) relies too heavily on just one of the ten chosen climatological quantities to predict September sea ice averages. Furthermore, E3SM gives too much importance to six of those quantities when compared to observed data. Identifying the features that climate models incorrectly rely on should allow climatologists to improve prediction accuracy.}},
+  pdf         = {https://www.osti.gov/servlets/purl/1782577},
+  issn        = {0377-0427},
+  doi         = {10.1016/j.cam.2021.113451},
+  url         = {https://www.sciencedirect.com/science/article/abs/pii/S0377042721000704},
+  html        = {https://www.sciencedirect.com/science/article/abs/pii/S0377042721000704},
+  pages       = {113451},
+  volume      = {395},
+  bibtex_show = {true},
+  selected    = {true}
 }
+
+@inproceedings{Nichol.2021.10.2172/1884401,
+  abbr        = {ICML},
+  year        = {2021},
+  title       = {{Learning Why: Data-Driven Causal Evaluations of Climate Models}},
+  author      = {Nichol, J. Jake and Peterson, Matthew and Fricke, G. Matthew and Peterson, Kara},
+  booktitle   = {ICML 2021 Workshop: Tackling Climate Change with Machine Learning},
+  abstract    = {We plan to use nascent data-driven causal discovery methods to find and compare causal relationships in observed data and climate model output. We will look at ten different features in the Arctic climate collected from public databases and from the Energy Exascale Earth System Model (E3SM). In identifying and comparing the resulting causal networks, we hope to find important differences between observed causal relationships and those in climate models. With these, climate modeling experts will be able to improve the coupling and parameterization of E3SM and other climate models.},
+  doi         = {10.2172/1884401},
+  html        = {https://www.climatechange.ai/papers/icml2021/80},
+  pdf         = {https://s3.us-east-1.amazonaws.com/climate-change-ai/papers/icml2021/80/paper.pdf},
+  bibtex_show = {true}
+}
+
 @techreport{Nichol.2021.10.2172/1820528,
-  abbr     = {SNL Report},
-  year     = {2021},
-  title    = {{Causal Evaluations for Identifying Differences between Observations and Earth System Models}},
-  author   = {Nichol, J. Jake and Peterson, Matthew and Peterson, Kara},
-  doi      = {10.2172/1820528},
-  url      = {https://www.osti.gov/biblio/1820528},
-  html     = {https://www.osti.gov/biblio/1820528},
-  keywords = {}
+  abbr            = {SNL Report},
+  year            = {2021},
+  title           = {{Causal Evaluations for Identifying Differences between Observations and Earth System Models}},
+  author          = {Nichol, J. Jake and Peterson, Matthew and Peterson, Kara},
+  institution     = {Sandia National Laboratories},
+  additional_info = {Sandia National Laboratories},
+  doi             = {10.2172/1820528},
+  url             = {https://www.osti.gov/biblio/1820528},
+  html            = {https://www.osti.gov/biblio/1820528},
+  bibtex_show     = {true}
 }
-@article{Nichol.2021.10.2172/1884401,
-  abbr     = {ICML},
-  year     = {2021},
-  title    = {{Learning Why: Data-Driven Causal Evaluations of Climate Models.}},
-  author   = {Nichol, J. Jake and Peterson, Matthew and Fricke, G. Matthew and Peterson, Kara},
-  journal  = {ICML 2021 Workshop Tackling Climate Change with Machine Learning},
-  abstract = {We plan to use nascent data-driven causal discovery methods to find and compare causal relationships in observed data and climate model output. We will look at ten different features in the Arctic climate collected from public databases and from the Energy Exascale Earth System Model (E3SM). In identifying and comparing the resulting causal networks, we hope to find important differences between observed causal relationships and those in climate models. With these, climate modeling experts will be able to improve the coupling and parameterization of E3SM and other climate models.},
-  doi      = {10.2172/1884401},
-  html     = {https://www.climatechange.ai/papers/icml2021/80},
-  pdf      = {https://s3.us-east-1.amazonaws.com/climate-change-ai/papers/icml2021/80/paper.pdf},
-  keywords = {}
+
+@techreport{osti_1769655,
+  abbr            = {White Paper},
+  title           = {{Advancing Sea Ice Predictability in E3SM with Machine Learning}},
+  author          = {Peterson, Kara and Davis, Warren and Peterson, Matt and Nichol, J. Jake and Chowdhary, Kenny and D'Elia, Marta},
+  institution     = {Sandia National Laboratories},
+  additional_info = {Sandia National Laboratories},
+  abstract        = {To improve predictions of sea ice in E3SM we propose to develop a hierarchy of data-driven models using observational and simulation data to investigate the most important Earth system drivers of sea ice variability and loss, develop surrogates that build on the reduced parameter space of important drivers, and, where appropriate, couple machine learning models with standard PDE models to capture important physical behavior at different scales.},
+  doi             = {10.2172/1769655},
+  url             = {https://www.osti.gov/biblio/1769655},
+  html            = {https://www.osti.gov/biblio/1769655},
+  year            = {2021},
+  bibtex_show     = {true}
 }
-@misc{Ackerman.2018.10.48550/arxiv.1805.08320,
-  abbr     = {arXiv},
-  year     = {2018},
-  title    = {{The Swarmathon: An Autonomous Swarm Robotics Competition}},
-  author   = {Ackerman, Sarah M and Fricke, G Matthew and Hecker, Joshua P and Hamed, Kastro M and Fowler, Samantha R and Griego, Antonio D and Jones, Jarett C and Nichol, J Jake and Leucht, Kurt W and Moses, Melanie E},
-  journal  = {arXiv},
-  abstract = {{The Swarmathon is a swarm robotics programming challenge that engages college students from minority-serving institutions in NASA's Journey to Mars. Teams compete by programming a group of robots to search for, pick up, and drop off resources in a collection zone. The Swarmathon produces prototypes for robot swarms that would collect resources on the surface of Mars. Robots operate completely autonomously with no global map, and each team's algorithm must be sufficiently flexible to effectively find resources from a variety of unknown distributions. The Swarmathon includes Physical and Virtual Competitions. Physical competitors test their algorithms on robots they build at their schools; they then upload their code to run autonomously on identical robots during the three day competition in an outdoor arena at Kennedy Space Center. Virtual competitors complete an identical challenge in simulation. Participants mentor local teams to compete in a separate High School Division. In the first 2 years, over 1,100 students participated. 63\% of students were from underrepresented ethnic and racial groups. Participants had significant gains in both interest and core robotic competencies that were equivalent across gender and racial groups, suggesting that the Swarmathon is effectively educating a diverse population of future roboticists.}},
-  doi      = {10.48550/arxiv.1805.08320},
-  html     = {https://arxiv.org/abs/1805.08320},
-  pdf      = {https://arxiv.org/pdf/1805.08320},
-  eprint   = {1805.08320},
-  keywords = {}
+
+@techreport{osti_1769797,
+  abbr            = {White Paper},
+  title           = {{Water Cycle-Driven Infectious Diseases as Multiscale, Reliable, Continuously Updating Water Cycle Sensors}},
+  author          = {Powell, Amy and Acquesta, Erin C. S. and Davis, Warren L. and Nichol, J. Jake and Tezaur, Irina and Peterson, Kara and Rempe, Susan and Huerta, Jose Gabriel},
+  institution     = {Sandia National Laboratories},
+  additional_info = {Sandia National Laboratories},
+  abstract        = {We propose a novel synthesis of observational and simulated data (climatological and biological) to enhance understanding of the real-world interplay between climate (here, the water cycle) and the epidemiology of water cycle-driven infectious disease. Our approach will leverage state-of-the-art in Artificial Intelligence (AI) to measure the degree to which climate change-driven shifts in water cycle can be predicted by supplementing sparse and irregular climate data with water cycle-driven infectious disease resources.},
+  doi             = {10.2172/1769797},
+  url             = {https://www.osti.gov/biblio/1769797},
+  html            = {https://www.osti.gov/biblio/1769797},
+  year            = {2021},
+  bibtex_show     = {true}
+}
+
+%% ----------------------------------------------------------------------------
+%% 2020
+%% ----------------------------------------------------------------------------
+
+@techreport{osti_1669210,
+  abbr            = {SNL Report},
+  title           = {{Arctic Tipping Points Triggering Global Change (LDRD Final Report)}},
+  author          = {Peterson, Kara J. and Powell, Amy Jo and Tezaur, Irina Kalashnikova and Roesler, Erika Louise and Nichol, J. Jake and Peterson, Matthew Gregor and Davis, Warren Leon and Jakeman, John Davis and Stracuzzi, David John and Bull, Diana L.},
+  institution     = {Sandia National Laboratories},
+  additional_info = {Sandia National Laboratories},
+  doi             = {10.2172/1669210},
+  url             = {https://www.osti.gov/biblio/1669210},
+  html            = {https://www.osti.gov/biblio/1669210},
+  year            = {2020},
+  bibtex_show     = {true}
+}
+
+%% ----------------------------------------------------------------------------
+%% 2018
+%% ----------------------------------------------------------------------------
+
+@inproceedings{Ackerman.2018.10.48550/arxiv.1805.08320,
+  abbr        = {ICRA},
+  year        = {2018},
+  title       = {{The Swarmathon: An Autonomous Swarm Robotics Competition}},
+  author      = {Ackerman, Sarah M. and Fricke, G. Matthew and Hecker, Joshua P. and Hamed, Kastro M. and Fowler, Samantha R. and Griego, Antonio D. and Jones, Jarett C. and Nichol, J. Jake and Leucht, Kurt W. and Moses, Melanie E.},
+  booktitle   = {ICRA 2018 Workshop: Swarms --- From Biology to Robotics and Back},
+  abstract    = {{The Swarmathon is a swarm robotics programming challenge that engages college students from minority-serving institutions in NASA's Journey to Mars. Teams compete by programming a group of robots to search for, pick up, and drop off resources in a collection zone. The Swarmathon produces prototypes for robot swarms that would collect resources on the surface of Mars. Robots operate completely autonomously with no global map, and each team's algorithm must be sufficiently flexible to effectively find resources from a variety of unknown distributions. In the first 2 years, over 1,100 students participated. 63\% of students were from underrepresented ethnic and racial groups.}},
+  doi         = {10.48550/arxiv.1805.08320},
+  html        = {https://arxiv.org/abs/1805.08320},
+  pdf         = {https://arxiv.org/pdf/1805.08320},
+  arxiv       = {1805.08320},
+  bibtex_show = {true}
 }
