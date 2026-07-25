@@ -1,6 +1,12 @@
-<!-- jQuery -->
-<script
-  src="{{ site.third_party_libraries.jquery.url.js }}"
-  integrity="{{ site.third_party_libraries.jquery.integrity.js }}"
-  crossorigin="anonymous"
-></script>
+<!-- jQuery (self-hosted) -->
+<!--
+  Served from this site rather than cdn.jsdelivr.net on purpose. When the CDN is
+  unreachable (lab/corporate networks, DNS filtering, blockers), jQuery silently
+  fails to load and `$` is undefined, which takes common.js and no_defer.js with
+  it: the Abs/Bib buttons on publications stop unfurling, and news/CV tables
+  never receive Bootstrap's .table-dark, so they render dark-on-dark until the
+  theme toggle is clicked (theme.js is vanilla JS and re-applies the class).
+  assets/js/jquery.min.js is byte-identical to jquery@3.6.0 from the CDN; its
+  SHA-256 matches site.third_party_libraries.jquery.integrity.js.
+-->
+<script src="{{ '/assets/js/jquery.min.js' | relative_url | bust_file_cache }}"></script>

@@ -2,7 +2,9 @@
 layout: about
 title: About
 permalink: /
-subtitle: Postdoctoral Appointee, Scientific Machine Learning, <a href="https://www.sandia.gov/">Sandia National Laboratories</a>
+# subtitle is intentionally blank: the first line of the bio below already
+# states role, department, and lab, so a subtitle just repeats it.
+subtitle:
 
 profile:
   align: right

@@ -8,7 +8,7 @@ middle_name: Jake
 last_name: Nichol
 email: jefnich@sandia.gov
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  J. Jake Nichol — Postdoctoral Appointee in Scientific Machine Learning at Sandia
+  J. Jake Nichol, Postdoctoral Appointee in Scientific Machine Learning at Sandia
   National Laboratories. Research on AI credibility, causal discovery, and
   physics-informed modeling for high-consequence scientific applications.
 # footer_text: >
@@ -271,7 +271,9 @@ sass:
 # -----------------------------------------------------------------------------
 
 jekyll-minifier:
-  exclude: ["robots.txt", "assets/js/search/*.js"]
+  # jquery.min.js is vendored already-minified upstream; re-minifying it only
+  # risks changing a file whose integrity we verified against the CDN.
+  exclude: ["robots.txt", "assets/js/search/*.js", "assets/js/jquery.min.js"]
   uglifier_args:
     harmony: true
 
