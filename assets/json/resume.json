@@ -1,11 +1,11 @@
 {
   "basics": {
     "name": "J. Jake Nichol",
-    "label": "Postdoctoral Appointee, Scientific Machine Learning, Sandia National Laboratories",
+    "label": "Senior Member of Technical Staff, AI Credibility, Sandia National Laboratories",
     "image": "",
     "email": "jefnich@sandia.gov",
     "url": "https://www.jjakenichol.com",
-    "summary": "My research advances AI Credibility for high-consequence scientific and national security applications: I believe consequential decisions demand mechanistic understanding, not black-box correlation. I develop causal discovery and physics-informed modeling methods to improve the interpretability, robustness, and evidence-based assurance of AI-enabled systems, including foundation and generative models. This is motivated by a broader interest in discovering new dynamics and phenomena in high-consequence domains and the natural sciences, particularly Earth systems, and in how credibility evidence supports human trust and decision-making.",
+    "summary": "I study model credibility: how well the evidence shows that a model approximates the real-world process behind its data. In high-consequence settings, where models need to be reliable, that evidence has to be strong enough to act on. My background is in causal discovery, the study of how to infer cause and effect from data.",
     "location": {
       "city": "Albuquerque",
       "countryCode": "US",
@@ -49,10 +49,22 @@
   "work": [
     {
       "name": "Sandia National Laboratories",
+      "position": "Senior Member of Technical Staff (R&D S&E, Artificial Intelligence)",
+      "location": "Albuquerque, NM, USA",
+      "startDate": "2026",
+      "endDate": "",
+      "summary": "AI Credibility department.",
+      "highlights": [
+        "Leading the credibility team on the Towards Certifying Trustworthy Machine Learning LDRD, including development of the Generalized Credibility Maturity Model (GCMM).",
+        "Causal modeling for cyber-physical threat detection in power grids (MetaShield LDRD) and causal analysis of weather foundation models (SEA-CROGS)."
+      ]
+    },
+    {
+      "name": "Sandia National Laboratories",
       "position": "Postdoctoral Appointee",
       "location": "Albuquerque, NM, USA",
       "startDate": "2025",
-      "endDate": "",
+      "endDate": "2026",
       "summary": "Scientific Machine Learning department.",
       "highlights": [
         "Research on AI credibility: causal discovery, trustworthy and certifiable machine learning, and physics-informed modeling for high-consequence applications.",
@@ -149,9 +161,9 @@
       "name": "Towards Certifying Trustworthy Machine Learning LDRD: Team Lead, Credibility",
       "startDate": "2025",
       "endDate": "",
-      "summary": "PI: Michael Darling. Co-leading the credibility assessment effort.",
+      "summary": "PI: Michael Darling. Leading the credibility assessment effort.",
       "highlights": [
-        "Developing the Generalized Modeling Maturity Model (GeMMM), which generalizes the CompSim Predictive Capability Maturity Model (PCMM) to any modeling paradigm.",
+        "Developing the Generalized Credibility Maturity Model (GCMM), which generalizes the CompSim Predictive Capability Maturity Model (PCMM) to any modeling paradigm.",
         "Developing the taxonomy of computational modeling.",
         "Cross-lab team spanning centers 1400, 5400, 5500, and 8700."
       ]
@@ -194,6 +206,13 @@
     }
   ],
   "publications": [
+    {
+      "name": "From Incredible Claims to Credible AI: Evidence-Backed Maturity Profiles for Risk-Informed AI Assurance",
+      "publisher": "AAAI Fall Symposium on AI Trustworthiness and Risk Assessment for Challenged Contexts (ATRACC) 2026 (accepted)",
+      "releaseDate": "2026",
+      "url": "",
+      "summary": ""
+    },
     {
       "name": "Challenges of Certifying Machine Learning Trustworthiness in High-Consequence Domains",
       "publisher": "Data Science in Science (accepted)",

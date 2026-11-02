@@ -8,9 +8,9 @@ middle_name: Jake
 last_name: Nichol
 email: jefnich@sandia.gov
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  J. Jake Nichol, Postdoctoral Appointee in Scientific Machine Learning at Sandia
-  National Laboratories. Research on AI credibility, causal discovery, and
-  physics-informed modeling for high-consequence scientific applications.
+  J. Jake Nichol, Senior Member of Technical Staff in the AI Credibility department
+  at Sandia National Laboratories. Research on model credibility and causal
+  discovery for high-consequence applications.
 # footer_text: >
 #   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
 #   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
